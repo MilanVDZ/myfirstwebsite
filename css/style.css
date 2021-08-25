@@ -1,0 +1,30 @@
+
+
+body {
+    font-family: "monsterrat", sans-serif;
+    font-size: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+nav a{
+    text-transform: uppercase;
+}
+
+#opleidingen-section{
+    display: block;
+    float: left;
+   
+}
+
+.col-md-8{
+    margin: auto;
+}
