@@ -10,11 +10,16 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 
+
+.flex-container{
+    display: flex;
+}
 nav a{
     text-transform: uppercase;
 }
