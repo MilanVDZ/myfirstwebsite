@@ -2,39 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Een webpagina over mezelf" />
-    <meta name="author" content="Milan Van der Zypen" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Een webpagina over mezelf"/>
+    <meta name="author" content="Milan Van der Zypen"/>
 
     <title>My first website</title>
     
     <script src="https://kit.fontawesome.com/b078ab18fa.js" crossorigin="anonymous"></script>
 
-    <link rel="icon" href="images/logo.jpg" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700Playfair+Display:400,700,900"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700Playfair+Display:400,700,900" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
 
   <body>
-    <header class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-static-top fixed-top">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <i class="fas fa-blog"></i></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -60,47 +49,58 @@
       </nav>
     </header>
     
-    <div id="home-section" class="col-md-8">
-      <h1>Wie ben ik?</h1>
-      <p>
-        Mijn naam is Milan. Ik ben geboren op 22 september 1997 te Asse.
-        Momenteel woon ik samen met mijn vriendin. Wil je wat meer te weten
-        komen over mij? Scroll dan zeker even naar beneden!
-      </p>
-    </div>
-    <div id="hobby-section" class="col-md-8">
-      <h1>Hobby's</h1>
-      <h2>Zwemmen</h2>
-      <p>
-        Al van kleins af aan wou ik altijd goed kunnen zwemmen. Op mijn 6 jaar
-        ben ik begonnen met het krijgen van privé-lessen. Toen ik 13 jaar was
-        heb ik mezelf ingeschreven in een zwemclub AART te Meise. Ik heb daar
-        competities gedaan totdat ik 16 jaar werd. Spijtig genoeg heb ik dit
-        moeten stoppen omdat ik van school ben veranderd, sindsdien ga ik
-        afentoe zwemmen als ik tijd heb.
-      </p>
+    <section class="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/profielfoto.jpg" alt="Profielfoto">
+          </div>
+          <div id="home-section" class="col-md-4">
+            <h1>Wie ben ik?</h1>
+            <p>
+              Mijn naam is Milan. Ik ben geboren op 22 september 1997 te Asse.
+              Momenteel woon ik samen met mijn vriendin. Wil je wat meer te weten
+              komen over mij? Scroll dan zeker even naar beneden!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <h2>Gaming</h2>
-      <p>
-        Toen ik 10 jaar werd kreeg ik voor mijn verjaardag een vaste computer.
-        Ik speelde vooral Runescape en Age of Empires. Later speelde ik ook
-        andere games zoals Counter-Strike, League of Legends, GTA, ...
-      </p>
+    <section class="hobby">
+      <div id="hobby-section" class="col-md-8 container">
+        <h1>Hobby's</h1>
+        <h2>Zwemmen</h2>
+        <p>
+          Al van kleins af aan wou ik altijd goed kunnen zwemmen. Op mijn 6 jaar
+          ben ik begonnen met het krijgen van privé-lessen. Toen ik 13 jaar was
+          heb ik mezelf ingeschreven in een zwemclub AART te Meise. Ik heb daar
+          competities gedaan totdat ik 16 jaar werd. Spijtig genoeg heb ik dit
+          moeten stoppen omdat ik van school ben veranderd, sindsdien ga ik
+          afentoe zwemmen als ik tijd heb.
+        </p>
+        <h2>Gaming</h2>
+        <p>
+          Toen ik 10 jaar werd kreeg ik voor mijn verjaardag een vaste computer.
+          Ik speelde vooral Runescape en Age of Empires. Later speelde ik ook
+          andere games zoals Counter-Strike, League of Legends, GTA, ...
+        </p>
+        <h2>Coding</h2>
+        <p>
+          In de eerste drie jaar van het middelbaar wist ik niet wat ik later zou
+          voort studeren. Totdat ik een gesprek had met een kennis, die persoon
+          vertelde mij over de richting Multimedia. Hier zou ik leren hoe je
+          designs voor affiches, kaartjes en websites maakte. Dit sprak mij direkt
+          aan en heb ik uiteindelijk gevolgd. Daarna heb ik ook nog een opleiding
+          gevolgd waar ik een beetje PHP en JS heb bijgeleerd. Ook ben ik nu de
+          opleiding Java Developer aan het volgen bij Intec Brussel. Tegenwoordig
+          kan ik zeggen dat dit meer dan een hobby is, maar een passie.
+        </p>
+      </div>
+    </section>
 
-      <h2>Coding</h2>
-      <p>
-        In de eerste drie jaar van het middelbaar wist ik niet wat ik later zou
-        voort studeren. Totdat ik een gesprek had met een kennis, die persoon
-        vertelde mij over de richting Multimedia. Hier zou ik leren hoe je
-        designs voor affiches, kaartjes en websites maakte. Dit sprak mij direkt
-        aan en heb ik uiteindelijk gevolgd. Daarna heb ik ook nog een opleiding
-        gevolgd waar ik een beetje PHP en JS heb bijgeleerd. Ook ben ik nu de
-        opleiding Java Developer aan het volgen bij Intec Brussel. Tegenwoordig
-        kan ik zeggen dat dit meer dan een hobby is, maar een passie.
-      </p>
-    </div>
-    <div class="row">
-      <div id="opleidingen-section" class="col-md-6">
+    <section class="opleidingen">
+      <div id="opleidingen-section" class="col-md-8 container">
         <h1>Opleidingen</h1>
         <ul>
           <li>Eerste tot vierde middelbaar: Sociaal Technische wetenschappen bij Sint-Donatus Merchtem</li>
@@ -110,29 +110,40 @@
           <li>Java Developer bij Intec Brussel</li>
         </ul>
       </div>
-    
-    <div id="ervaring-section" class="col-md-6">
-      <h1>Ervaring</h1>
-      <ul>
-        <li>Kassamedewerker bij Smatch Merchtem</li>
-        <li>Transportmanager bij De Decker-Van Riet Malderen</li>
-        <li>Ober bij Vijf voor Twaalf Merchtem</li>
-      </ul>
-    </div>
-  </div>
-    <div id="skills-section">
-      <h1>Skills</h1>
-      <ul>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>PHP</li>
-        <li>Photoshop</li>
-        <li>Illustrator</li>
-        <li>Indesign</li>
-        <li>Adobe Xd</li>
-      </ul>
-    </div>
+    </section>
+  
+    <section class="ervaring">
+      <div id="ervaring-section" class="col-md-8 container">
+        <h1>Ervaring</h1>
+        <ul>
+          <li>Kassamedewerker bij Smatch Merchtem</li>
+          <li>Transportmanager bij De Decker-Van Riet Malderen</li>
+          <li>Ober bij Vijf voor Twaalf Merchtem</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div id="skills-section" class="col-md-8 container">
+        <h1>Skills</h1>
+        <ul>
+          <li>Java</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>PHP</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Indesign</li>
+          <li>Adobe Xd</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Milan Van der Zypen</p>
+      </div>
+    </footer>
   </body>
 </html>

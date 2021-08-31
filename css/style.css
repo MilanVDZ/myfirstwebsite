@@ -1,35 +1,80 @@
 
-
 body {
     font-family: "monsterrat", sans-serif;
     font-size: 20px;
+    padding-top: 6em;
 }
-
-h1, h2 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
 
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 
-
-.flex-container{
-    display: flex;
+nav{
+    background-color: #0dad8d;
 }
+
 nav a{
     text-transform: uppercase;
 }
 
-#opleidingen-section{
-    display: block;
-    float: left;
-   
+.home{
+    margin-left: 25%;
+    margin-bottom: 3em;
 }
 
-.col-md-8{
-    margin: auto;
+.home h1, .hobby h1, .opleidingen h1, .ervaring h1, .skills h1{
+    color: #0dad8d;
+}
+
+.hobby h1, .opleidingen h1, .ervaring h1, .skills h1{
+    text-align: center;
+}
+
+.hobby h1, .opleidingen h1, .skills h1{
+    padding-top: 1em;
+}
+
+.hobby, .ervaring, .skills{
+    padding-bottom: 1em;
+}
+
+
+.hobby, .skills{
+    background-color: #ECECEC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #0dad8d;
+    text-align: center;
+}
+
+
+footer p{
+    padding: 30px;
 }
