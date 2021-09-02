@@ -35,13 +35,13 @@
                 <a class="nav-link" href="#hobby-section">Hobby's</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#opleidingen-section">Opleidingen</a>
+                <a class="nav-link" href="#opleidingen-section">Kennis</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ervaring-section">Ervaring</a>
+                <a class="nav-link" href="#projecten-section">Projecten</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills-section">Skills</a>
+                <a class="nav-link" href="#contact-section">Contact</a>
               </li>
             </ul>
           </div>
@@ -50,12 +50,12 @@
     </header>
     
     <section class="home">
-      <div class="container">
+      <div  id="home-section" class="container">
         <div class="row">
           <div class="col-md-4">
             <img src="images/profielfoto.jpg" alt="Profielfoto">
           </div>
-          <div id="home-section" class="col-md-4">
+          <div class="col-md-4">
             <h1>Wie ben ik?</h1>
             <p>
               Mijn naam is Milan. Ik ben geboren op 22 september 1997 te Asse.
@@ -110,10 +110,7 @@
           <li>Java Developer bij Intec Brussel</li>
         </ul>
       </div>
-    </section>
-  
-    <section class="ervaring">
-      <div id="ervaring-section" class="col-md-8 container">
+      <div class="col-md-8 container">
         <h1>Ervaring</h1>
         <ul>
           <li>Kassamedewerker bij Smatch Merchtem</li>
@@ -121,10 +118,7 @@
           <li>Ober bij Vijf voor Twaalf Merchtem</li>
         </ul>
       </div>
-    </section>
-
-    <section class="skills">
-      <div id="skills-section" class="col-md-8 container">
+      <div class="col-md-8 container">
         <h1>Skills</h1>
         <ul>
           <li>Java</li>
@@ -140,9 +134,63 @@
       </div>
     </section>
 
+    <section class="projecten">
+      <div id="projecten-section" class="container">
+        <h1>Mijn projecten</h1>
+        <div class="row">
+          <div class="col-md-6">
+          <img src="images/hervermogen.png" alt="Hefvermogen festival">
+          <img src="images/tplein.png" alt="Bed & Breakfast 't plein" class="foto">
+          </div>
+          <div class="col-md-6">
+            <img src="images/3dprinter.png" alt="3D-printer">
+            <img src="images/moodboard.png" alt="Moodboard website" class="foto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div id="contact-section" class="container">
+        <h1>Contacteer mij</h1>
+        <div class="py-5 main">
+          <div class="row">
+            <div class="col-md-12">
+              <form>
+                <div class="form-group row">
+                  <div class="col-sm-6">
+                    <input id="voornaam" name="voornaam" type="text" class="form-control" placeholder="First name" required>
+                  </div>
+                  <div class="col-sm-6">
+                    <input id="achternaam" name="achternaam" type="text" class="form-control" placeholder="Last name" required>
+                  </div>
+                  <div class="col-sm-12">
+                    <input id="email" name="email" type="text" class="form-control" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-12">
+                    <textarea id="bericht" type="text" class="form-control" name="bericht" placeholder="Message" rows="8"></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary px-4">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
     <footer>
       <div class="container">
-        <p>&copy; Milan Van der Zypen</p>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="https://github.com/MilanVDZ" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="col-md-6">
+            <p>&copy; Milan Van der Zypen</p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

@@ -1,3 +1,4 @@
+/* GENERAL STUFF */
 
 body {
     font-family: "monsterrat", sans-serif;
@@ -10,6 +11,9 @@ p{
     font-size: 14px;
 }
 
+
+/* NAV */
+
 nav{
     background-color: #0dad8d;
 }
@@ -18,63 +22,141 @@ nav a{
     text-transform: uppercase;
 }
 
+
+/* SECTIONS */
+
 .home{
     margin-left: 25%;
     margin-bottom: 3em;
 }
 
-.home h1, .hobby h1, .opleidingen h1, .ervaring h1, .skills h1{
+.home h1, .hobby h1, .opleidingen h1, .projecten h1, .contact h1{
     color: #0dad8d;
 }
 
-.hobby h1, .opleidingen h1, .ervaring h1, .skills h1{
+.hobby h1, .opleidingen h1, .projecten h1, .contact h1{
     text-align: center;
 }
 
-.hobby h1, .opleidingen h1, .skills h1{
+.hobby h1, .opleidingen h1, .projecten h1, .contact h1{
     padding-top: 1em;
-}
-
-.hobby, .ervaring, .skills{
     padding-bottom: 1em;
 }
 
+.hobby{
+    padding-bottom: 1em;
+}
 
-.hobby, .skills{
+.projecten{
+    text-align: center;
+}
+
+.foto{
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+
+.hobby, .projecten{
     background-color: #ECECEC;
 }
 
 
+/* CONTACT FORM */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    background-color: #0dad8d;
+.contact{
     text-align: center;
 }
 
+.contact i.fa{
+	color: #f50136;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.contact p{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'monsterrrat', sans-serif;
+}
+
+.contact .btn-primary{
+    color: #fff;
+    width: 200px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #0dad8d;
+    border-color: #0dad8d;
+    height: 50px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.contact .btn-primary:hover{
+    color: #0dad8d;
+    background-color: transparent;
+    border-color: #0dad8d;
+}
+
+.contact .form-control{
+    height: 52px;
+    border-radius: 0;
+    margin-bottom: 25px;
+    border: 1px solid #000000;
+}
+
+.contact .form-group{
+    margin-bottom: 0;
+}
+
+.contact textarea.form-control{
+    height: auto;
+    margin-bottom: 15px;
+    padding: 20px 13px;
+}
+
+.contact ::-webkit-input-placeholder{
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #0dad8d;
+    width: 100%;
+    margin: auto;
+}
 
 footer p{
-    padding: 30px;
+    padding-top: 20px;
+}
+
+.social-icon{
+    color: #fff;
+}
+
+.social-icons a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-github{
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #0dad8d;
+    margin-top: 10px;
+}
+
+.fa-github:hover{
+    background-color: #000000;
 }
